@@ -9,4 +9,7 @@ This page is a project of a LND class, this project it's about spanish musical a
 ## Thanks.
 Thanks for download my project.
 
+## Inspiration
+https://dribbble.com/shots/22892314-Movie-TV-Film-Landing-Page-Design
+
 ## Author: Audrey Diaz Armas.
