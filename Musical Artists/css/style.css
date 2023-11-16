@@ -1,0 +1,228 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+#artistlist {
+    background-color: black;
+    color: white;
+}
+
+#list {
+    background-color: black;
+}
+
+#tlist {
+    color: white;
+}
+
+#alist {
+    background-color: black
+}
+
+#artist-list {
+    color: white;
+}
+
+#header {
+    height: 95px;
+    background-color: darksalmon;
+}
+
+#tittle {
+    text-align: center;
+    color: black;
+    font: normal 800 1em/1 "font awesome 6 free";
+    font-size: large;
+}
+
+#header i {
+    font-size: 30px;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+#img1 {
+    width: 100%;
+}
+
+#img1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#side-menu {
+    position: fixed;
+    left: -45vw;
+    width: 45vw;
+    height: 100vh;
+    background-color: darksalmon;
+}
+
+#navegation {
+    font-size: 30px;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+#ma {
+    font-size: 30px;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+#reco {
+    font-size: 30px;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.side-menu-open {
+    transition: all 1s;
+    transform: translateX(45vw);
+}
+
+.side-menu-close {
+    transition: all 1s;
+    transform: translateX(-45vw);
+}
+
+#artists {
+    text-align: center;
+}
+
+#footer {
+    height: 95px;
+    background-color: darksalmon;
+    text-align: center;
+}
+
+#footer footer a {
+    color: black;
+    text-decoration: none;
+}
+
+#popular {
+    text-align: center;
+    color: white;
+}
+
+#history {
+    text-align: justify;
+    color: white;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#mgenre-error {
+    color: red;
+    visibility: hidden;
+}
+
+#artist-error {
+    color: red;
+    visibility: hidden;
+}
+
+.deleteform {
+    background-color: black;
+    color: red;
+}
+
+.down {
+    background-color: black;
+    color: aqua;
+}
+
+.up {
+    background-color: black;
+    color: forestgreen;
+}
+
+.copy {
+    background-color: black;
+    color: yellow;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    #artists img {
+        width: 40vw;
+        height: 40vh;
+        box-sizing: border-box;
+        align-items: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #artists img {
+        width: 40vw;
+        height: 40vh;
+        box-sizing: border-box;
+        align-items: center;
+    }
+
+    #artists img:hover {
+        width: 44vw;
+        height: 44vh;
+        transition: 0.5s;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #artists img {
+        width: 40vw;
+
+        box-sizing: border-box;
+        align-items: center;
+    }
+
+    #artists img:hover {
+        width: 44vw;
+        height: 44vh;
+        transition: 0.5s;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #artists img {
+        width: 30vw;
+        height: 30vh;
+        box-sizing: border-box;
+        align-items: center;
+    }
+
+    #artists img:hover {
+        width: 34vw;
+        height: 34vh;
+        transition: 0.5s;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #artists img {
+        width: 20vw;
+        height: 20vh;
+        box-sizing: border-box;
+        align-items: center;
+    }
+
+    #artists img:hover {
+        width: 24vw;
+        height: 24vh;
+        transition: 0.5s;
+    }
+}
