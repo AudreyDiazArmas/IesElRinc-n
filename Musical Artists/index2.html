@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id="header">
+    <i id="menu" class="fa-solid fa-ellipsis-vertical"></i>
+    <h1 id="tittle">Recommendations</h1>
+    <div id="side-menu">
+      <i id="menu-close" class="fa-solid fa-xmark"></i>
+      <br>
+      <br>
+      <h1 id="navegation">Menu</h1>
+      <a id="ma" href="index.html">Main page</a>
+      <br>
+      <a id="reco" href="index2.html">Recommendations</a>
+    </div>
+  </div>
+  <div id="img1">
+    <img src="img/back.jpg" alt="background">
+  </div>
+
+  <div id="artistlist">
+    <br>
+    <div class="row">
+      <div class="col-sm-6">
+        <p class="left-side">On this page you can recommend artists to other users</p>
+      </div>
+      <div class="col-sm-6">
+        <div class="left-side">
+          <form id="artist-form" action="index2.html">
+            <div class="mb-3 mt-3">
+              <label for="mgenre" class="form-label">Musical genre</label>
+              <input type="text" class="form-control" id="mgenre" placeholder="Enter Musical genre" name="mgenre">
+              <span id="mgenre-error">*Field Required</span>
+            </div>
+            <div class="mb-3">
+              <label for="artist" class="form-label">Name of artist</label>
+              <input type="text" class="form-control" id="artist" placeholder="Enter artist" name="artist">
+              <span id="artist-error">*Field Required</span>
+            </div>
+            <button type="submit" class="btn btn-primary">Add</button>
+
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="alist" class="row">
+    <div class="col-sm-12">
+      <div class="left-side">
+        <br>
+        <h2 id="tlist">Artist list</h2>
+        <ul id="artist-list">
+
+        </ul>
+      </div>
+    </div>
+    <br>
+  </div>
+
+
+  <div id="footer">
+    <footer>
+      <a href="#header">Go up</a>
+    </footer>
+  </div>
+
+  <script src="https://kit.fontawesome.com/fb9425d16d.js" crossorigin="anonymous"></script>
+
+  <script src="js/side-menu.js"></script>
+  <script src="js/addartist.js"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,252 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #04133a;
+}
+
+#artistlist {
+  background-color: #04133a;
+  text-align: justify;
+  color: white;
+  font: normal 800 1em/1 "font awesome 6 free";
+  font-size: large;
+}
+
+#list {
+  background-color: #04133a;
+}
+
+#tlist {
+  text-align: justify;
+  color: white;
+  font: normal 800 1em/1 "font awesome 6 free";
+  font-size: large;
+}
+
+#alist {
+  background-color: #04133a
+}
+
+#artist-list {
+  text-align: justify;
+  color: white;
+  font: normal 800 1em/1 "font awesome 6 free";
+  font-size: large;
+}
+
+#header {
+  height: 95px;
+  background-color: #61c5cb;
+}
+
+#tittle {
+  text-align: center;
+  color: black;
+  font: normal 800 1em/1 "font awesome 6 free";
+  font-size: large;
+}
+
+#header i {
+  font-size: 30px;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+#img1 {
+  width: 100%;
+}
+
+#img1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#side-menu {
+  position: fixed;
+  left: -45vw;
+  width: 45vw;
+  height: 100vh;
+  background-color: #61c5cb;
+}
+
+#navegation {
+  font-size: 30px;
+  margin-top: 1em;
+  margin-left: 1em;
+  text-align: justify;
+  color: white;
+  font: normal 800 1em/1 "font awesome 6 free";
+  font-size: large;
+}
+
+#ma {
+  font-size: 30px;
+  margin-top: 1em;
+  margin-left: 1em;
+  text-align: justify;
+  color: white;
+  font: normal 800 1em/1 "font awesome 6 free";
+  font-size: large;
+  text-decoration: none;
+}
+
+#reco {
+  font-size: 30px;
+  margin-top: 1em;
+  margin-left: 1em;
+  text-align: justify;
+  color: white;
+  font: normal 800 1em/1 "font awesome 6 free";
+  font-size: large;
+  text-decoration: none;
+}
+
+.side-menu-open {
+  transition: 1s;
+  transform: translateX(45vw);
+  opacity: 1;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.side-menu-close {
+  transition: 1s;
+  transform: translateX(-45vw);
+  opacity: 0;
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+}
+
+#artists {
+  text-align: center;
+}
+
+#footer {
+  height: 95px;
+  background-color: #61c5cb;
+  text-align: center;
+}
+
+#footer footer a {
+  text-align: center;
+  color: black;
+  font: normal 800 1em/1 "font awesome 6 free";
+  font-size: large;
+  text-decoration: none;
+}
+
+#popular {
+  text-align: center;
+  color: white;
+  font: normal 800 1em/1 "font awesome 6 free";
+  font-size: large;
+  text-decoration: none;
+}
+
+#history {
+  text-align: justify;
+  color: white;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+#mgenre-error {
+  color: red;
+  visibility: hidden;
+}
+
+#artist-error {
+  color: red;
+  visibility: hidden;
+}
+
+.deleteform {
+  background-color: #04133a;
+}
+
+.down {
+  background-color: #04133a;
+}
+
+.up {
+  background-color: #04133a;
+}
+
+.copy {
+  background-color: #04133a;
+}
+
+.update {
+  background-color: #04133a;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #artists img {
+    width: 40vw;
+    height: 40vh;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  #artists img:hover {
+    transform: perspective(1000px) rotateY(180deg);
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #artists img {
+    width: 40vw;
+    height: 40vh;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  #artists img:hover {
+    transform: perspective(1000px) rotateY(180deg);
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #artists img {
+    width: 40vw;
+    height: 40vh;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  #artists img:hover {
+    transform: perspective(1000px) rotateY(180deg);
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #artists img {
+    width: 30vw;
+    height: 30vh;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  #artists img:hover {
+    transform: perspective(1000px) rotateY(180deg);
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #artists img {
+    width: 20vw;
+    height: 20vh;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  #artists img:hover {
+    transform: perspective(1000px) rotateY(180deg);
+  }
+}
